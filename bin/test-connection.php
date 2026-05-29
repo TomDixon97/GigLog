@@ -3,7 +3,6 @@
 
 declare(strict_types=1);
 
-// Load the EntityManager we configured in config/doctrine.php.
 $entityManager = require __DIR__ . '/../config/doctrine.php';
 
 try {
